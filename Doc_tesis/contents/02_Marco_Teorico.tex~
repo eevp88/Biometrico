@@ -249,7 +249,7 @@ En la  actualidad, existen tres niveles de clasificación entre los cuáles es p
 
 
 \item\textbf{Características basadas en minucias}: estas  se basan en características e interrelaciones entre los distintos puntos, surcos y crestas dentro de un dominio espacial. La clasificación se origina a partir de elementos utilizados en medicina forense desde hace más de un siglo. Aquí se incluyen elementos tales como bifurcaciones, islas, terminaciones, empalmes, horquillas, lagos, cordilleras
-independientes, entre otros.  En las Figuras \ref{minucias} y \ref{minucias2} se puede  observar algunos ejemlos de caracteristicas basadas en  minucias. 
+independientes, entre otros.  En la Figura \ref{minucias} se puede  observar algunos ejemlos   de  caracteristicas basadas en  minucias.
 
 \begin{figure}[H]
 \centering
@@ -259,23 +259,6 @@ independientes, entre otros.  En las Figuras \ref{minucias} y \ref{minucias2} se
 \end{figure}
 
 
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale= 0.8]{images/capitulo2/minucias2.png}
-\caption{Ejemplo de  Huella digital y algunas características basadas en minucias}
-\label{minucias2}
-\end{figure}
-
-\item\textbf{Características basadas en}: Los poros, aberturas de las glándulas sudoríparas, son visibles en la superficie del dedo y constituyen un patrón formado por los puntos en la cima de las crestas\cite{Rod97}. La adquisición de estas características, requieren de sensores de alta resolución espacial. En la figura \ref{poros_sudaderos} se muestra una ilustración de la distribución de éstas características.
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale= 0.8]{images/capitulo2/poros_sudaderos.png}
-\caption{Ejemplo de  Huella digital y algunas características basadas en minucias}
-\label{poros_sudaderos}
-\end{figure}
 
 \end{enumerate}
 

@@ -1,0 +1,345 @@
+%******************************************************************
+% Proyecto de Título                                              *
+% Ingeniería Civil en Informática - Universidad Austral de Chile  *
+% Autor: Paulo Antonio Gallardo Casanova                          *
+%          gallardo.casanova@gmail.com                            * 
+% Tesis: Uso de 6LoWPAN para el Monitoreo de la Salud             *
+%            Estructural de un Puente                             *
+%     Noviembre de 2013 - Valdivia                                *   
+% Patrocinante: Christian Lazo, clazo@inf.uach.cl                 *                                         
+%******************************************************************
+
+%******************************************************************
+% Plantilla de Proyecto de Título                                 *
+% Ingeniería Civil en Informática - Universidad Austral de Chile  *
+% Autor: Paulo Antonio Gallardo Casanova                          *
+%          gallardo.casanova@gmail.com                            * 
+%     Agosto de 2013 - Valdivia                                   *                                            
+%******************************************************************
+
+%******************************************************************
+% Proyecto de Título                                              *
+% Ingeniería Civil en Informática - Universidad Austral de Chile  *
+% Autor: Enzo Edgardo Vera Paganrd                                *
+%          eevp88@gmail.com                                       * 
+%     Enero 2014 - Valdivia                                       *
+%******************************************************************
+\documentclass[12pt]{article} 
+\usepackage[papersize={216mm,330mm},left=4cm,right=2.5cm,top=1.88cm,bottom=3cm]{geometry} 
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{xcolor,colortbl}
+\usepackage[pdftex,
+			colorlinks=true,
+			linkcolor=black,
+			citecolor=black,
+			filecolor=black,
+			urlcolor=black,
+			hyperfootnotes=false,
+            pdfauthor={Enzo Edgardo Vera Pagnard},
+            pdftitle={Dispositivo identificador de personas con RFID y Biometria},
+            pdfsubject={Tesis},
+            pdfkeywords={DIPRB, RFID},
+            pdfproducer={Latex with hyperref},
+            pdfcreator={pdflatex}]{hyperref}
+\usepackage{url}
+\usepackage[bottom]{footmisc}
+\usepackage{float}
+\usepackage{nonfloat}
+\usepackage{setspace}
+\usepackage[titles]{tocloft}
+\usepackage{lipsum,titletoc}
+\usepackage{tocloft}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc} % Times New Roman
+\usepackage{txfonts}
+\usepackage{sectsty}
+\usepackage[labelsep=period]{caption}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[CE,CO]{\thepage}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\usepackage[figuresright]{rotating} 
+\renewcommand{\baselinestretch}{1.5}
+\pretolerance=10000
+\tolerance=10000
+
+\sectionfont{\fontsize{14}{14}\selectfont}
+\subsectionfont{\fontsize{14}{14}\selectfont}
+
+\newcommand{\blockline}{\par\noindent\hspace{-0.05\textwidth}%
+    \textcolor{black}{\rule{1.05\textwidth}{0.35mm}}\par\nobreak}
+       
+    
+\begin{document}
+
+%##########################################################
+%PORTADA
+
+\thispagestyle{empty}
+\setcounter{page}{1}
+\begin{spacing}{1.0}
+
+\begin{center}
+\includegraphics[width=2.65cm, height=3.18cm]{images/portada/escudo.png}\\
+\vspace{0.5cm}
+\includegraphics[width=13.02cm, height=1.23cm]{images/portada/uach.png}\\
+\vspace{-0.4cm}
+\blockline
+\vspace{0.2cm}
+{\fontsize{24}{24}\selectfont Facultad de Ciencias de la Ingeniería}\\[0.1cm]
+{\fontsize{18}{18}\selectfont Escuela de Ingeniería Civil en Informática}\\
+\end{center}
+
+\vspace{3.0cm}
+
+\begin{center}
+{\fontsize{18}{18}\selectfont \bf DISPOCITIVO IDENTIFICADOR DE PERSONAS CON RFID Y BIOMETRÍA}\\[0.5cm]
+{\fontsize{18}{18}\selectfont \bf DIPRB}\\
+\end{center}
+
+\vspace{3.0cm}
+
+\begin{flushright} \small
+{\fontsize{10}{10}\selectfont Proyecto para optar al título de}  \textcolor{white}{.}\\
+{\fontsize{10}{10}\selectfont \bf Ingeniero Civil en Informática} 
+\end{flushright}
+
+\vspace{1.0cm}
+
+\begin{flushleft} \small
+\hspace{-1cm}{\fontsize{11}{11}\selectfont PROFESOR PATROCINANTE:}\\
+\hspace{-1cm}{\fontsize{11}{11}\selectfont NOMBRE DEL PATROCINANTE}\\
+\hspace{-1cm}{\fontsize{11}{11}\selectfont TÍTULOS Y GRADOS DEL PATROCINANTE}\\
+\vspace{0.5cm}
+\hspace{-1cm}{\fontsize{11}{11}\selectfont PROFESOR CO-PATROCINANTE:}\\
+\hspace{-1cm}{\fontsize{11}{11}\selectfont NOMBRE DEL CO-PATROCINANTE}\\
+\hspace{-1cm}{\fontsize{11}{11}\selectfont TÍTULOS Y GRADOS DEL CO-PATROCINANTE}\\
+\vspace{0.5cm}
+\hspace{-1cm}{\fontsize{11}{11}\selectfont PROFESOR INFORMANTE:}\\
+\hspace{-1cm}{\fontsize{11}{11}\selectfont NOMBRE DEL INFORMANTE}\\
+\hspace{-1cm}{\fontsize{11}{11}\selectfont TÍTULOS Y GRADOS DEL INFORMANTE}\\
+\end{flushleft}
+
+\vspace{1.0cm}
+
+\begin{center}
+{\fontsize{16}{16}\selectfont \bf ENZO EDGARDO VERA PAGNARD}\\
+\vspace{0.4cm}
+{\fontsize{10}{10}\selectfont VALDIVIA - CHILE}\\
+{\fontsize{10}{10}\selectfont 2014}\\
+\end{center}
+
+\end{spacing}
+
+%##########################################################
+
+\newpage
+
+\newgeometry{left=4cm,right=2.5cm,top=4cm,bottom=3cm} % Márgenes documento
+\renewcommand{\tablename}{Tabla}
+
+% Formato de indices
+\renewcommand\contentsname{}
+\renewcommand\listfigurename{}
+\renewcommand\listtablename{}
+
+\setlength{\cftbeforesecskip}{0ex}
+\titlecontents{section} 
+[2.3em]                 
+{\rmfamily}            
+{ \contentslabel{1.3em}} 
+{\hspace*{-1.0em}}
+{\titlerule*[0.7pc]{.}\contentspage}
+
+\setlength{\cftsecnumwidth}{0.8em}  % espacio en ToC
+\setlength{\cftsubsecnumwidth}{1.8em}
+\setlength{\cftsubsubsecnumwidth}{2.5em}
+\setlength{\cftsubsecindent}{2.0em}
+\setlength{\cftsubsubsecindent}{3.0em}
+\setlength{\cftfignumwidth}{1.5em}  % espacio entre números con LoF
+\setlength{\cfttabnumwidth}{1.5em}  % espacio entre números con LoT
+
+
+\setlength{\parindent}{0pt} % sangrías
+
+%----------------------------------------------------------
+% NOTAS
+
+%----------------------------------------------------------
+% AGRADECIMIENTOS
+\thispagestyle{empty}
+\begin{center}
+{\fontsize{14}{14}\selectfont \bf AGRADECIMIENTOS}\\
+\end{center}
+
+%\input{contents/Agradecimientos.tex}
+
+\newpage
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\roman{page}} 
+
+%##########################################################
+%INDICES
+
+%----------------------------------------------------------
+% Indice de contenidos
+\begin{center}
+{\fontsize{14}{14}\selectfont \bf ÍNDICE}\\
+\end{center}
+\phantomsection
+\addcontentsline{toc}{section}{ÍNDICE}
+\vspace{-1.0cm}
+\begin{spacing}{1.2}
+{\fontsize{10}{10}\selectfont \tableofcontents}
+\end{spacing}
+
+\newpage
+
+%----------------------------------------------------------
+% Indice de tablas - LoT
+\begin{center}
+{\fontsize{14}{14}\selectfont \bf ÍNDICE DE TABLAS}\\
+\end{center}
+\phantomsection
+\addcontentsline{toc}{section}{ÍNDICE DE TABLAS}
+
+\begin{flushright} \small
+TABLA \hspace{11.6cm} PÁGINA\\
+\end{flushright}
+
+\vspace{-1.0cm}
+
+\begin{spacing}{1.2}
+{\fontsize{10}{10}\selectfont \listoftables}
+\end{spacing}
+
+\newpage
+
+%----------------------------------------------------------
+% Indice de figuras - LoF
+\begin{center}
+{\fontsize{14}{14}\selectfont \bf ÍNDICE DE FIGURAS}\\
+\end{center}
+\phantomsection
+\addcontentsline{toc}{section}{ÍNDICE DE FIGURAS}
+
+
+\begin{flushright} \small
+FIGURA \hspace{11.45cm} PÁGINA\\
+\end{flushright}
+
+\vspace{-1.0cm}
+
+\begin{spacing}{1.2}
+{\fontsize{10}{10}\selectfont \listoffigures}
+\end{spacing}
+
+\newpage
+
+
+%----------------------------------------------------------
+% RESUMEN
+\begin{center}
+{\fontsize{14}{14}\selectfont \bf RESUMEN}\\
+\end{center}
+\phantomsection
+\addcontentsline{toc}{section}{RESUMEN}
+
+\input{contents/Resumen.tex}
+
+\newpage
+
+%----------------------------------------------------------
+% ABSTRACT
+\begin{center}
+{\fontsize{14}{14}\selectfont \bf ABSTRACT}\\
+\end{center}
+\phantomsection
+\addcontentsline{toc}{section}{ABSTRACT}
+
+%\input{contents/Abstract.tex}
+
+\newpage
+
+%##########################################################
+% CUERPO DEL DOCUMENTO
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{INTRODUCCIÓN}
+\input{contents/01_Introduccion.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{MARCO TEÓRICO}
+\input{contents/02_Marco_Teorico.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{SOLUCIÓN PROPUESTA}
+%\input{contents/03_Solucion_Propuesta.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{ANÁLISIS Y DISEÑO}
+%\input{contents/04_Analisis_y_Diseno.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{IMPLEMENTACIÓN}
+%\input{contents/05_Implementacion.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{RESULTADOS}
+%\input{contents/06_Resultados.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+\section{CONCLUSIONES}
+%\input{contents/Conclusion.tex}
+
+\newpage
+%----------------------------------------------------------
+%----------------------------------------------------------
+
+
+\newpage
+%##########################################################
+% BIBLIOGRAFIA
+
+\renewcommand{\refname}{BIBLIOGRAFÍA}
+\phantomsection
+\addcontentsline{toc}{section}{BIBLIOGRAFÍA}
+\input{contents/Bibliografia.tex}
+
+
+	
+\newpage
+%##########################################################
+% ANEXOS
+
+\phantomsection
+\addcontentsline{toc}{section}{ANEXOS}
+
+\newpage
+%\input{contents/AnexoE_Abreviaciones.tex}
+
+
+\end{document} 
