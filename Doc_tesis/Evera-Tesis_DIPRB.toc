@@ -21,10 +21,10 @@
 \contentsline {subsubsection}{\numberline {2.2.3}Criterios de selecci\IeC {\'o}n de caracter\IeC {\'\i }sticas biom\IeC {\'e}tricas}{9}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}Medidas de Rendimiento y Exactitud}{11}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}Dactiloscop\IeC {\'\i }a: Reconocimiento de huellas dactilares}{12}{subsubsection.2.2.5}
-\contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{15}{section.3}
-\contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{16}{section.4}
-\contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{17}{section.5}
-\contentsline {section}{\numberline {6}RESULTADOS}{18}{section.6}
-\contentsline {section}{\numberline {7}CONCLUSIONES}{19}{section.7}
-\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{20}{section*.25}
+\contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{16}{section.3}
+\contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{17}{section.4}
+\contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{18}{section.5}
+\contentsline {section}{\numberline {6}RESULTADOS}{19}{section.6}
+\contentsline {section}{\numberline {7}CONCLUSIONES}{20}{section.7}
+\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{21}{section*.27}
 \contentsfinish 
