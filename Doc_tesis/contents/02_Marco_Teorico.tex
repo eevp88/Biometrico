@@ -2,7 +2,7 @@
 %----------------------------------------------------------
 % MARCO TEÓRICO
 
-A lo largo del presente capítulo se pretende describir los conceptos en torno a los cuales se efectuará el siguiente trabajo. Además se llevará a cabo una revisión de las  tecnologias relacionadas con este proyecto como  son las  plataformas open hardware, sensores y microcontroladores .\\
+A lo largo del presente capítulo se pretende describir los conceptos en torno a los cuales se efectuará el siguiente trabajo. Además se llevará a cabo una revisión de las  tecnologias relacionadas con este proyecto como  son las  plataformas open hardware, sensores y microcontroladores .
 
 %--------------------------------------
 \subsection{Open Hardware}
@@ -48,14 +48,14 @@ Es decir, solamente una cantidad de información limitada sobre el diseño neces
 %--------------------------------------
 \subsection{Biometría}
 
-Históricamente, la identificación personal se ha basado en posesiones especiales (llaves, tarjetas) o en conocimientos secretos (palabras claves, números de identificación personal), todos estos aspectos son casi únicos, y se emplean para verificar la identidad de su portador. Ahora bien, el ser humano posee características propias que lo hacen único: huellas dactilares, la voz, el rostro, la forma de escritura, e incluso el iris del ojo.Entonces, podemos decir que nosotros llevamos nuestras propias palabras claves, tarjetas o números PIN. Entonces, ¿Porque no aprovechar estas características?\\
+Históricamente, la identificación personal se ha basado en posesiones especiales (llaves, tarjetas) o en conocimientos secretos (palabras claves, números de identificación personal), todos estos aspectos son casi únicos, y se emplean para verificar la identidad de su portador. Ahora bien, el ser humano posee características propias que lo hacen único: huellas dactilares, la voz, el rostro, la forma de escritura, e incluso el iris del ojo.Entonces, podemos decir que nosotros llevamos nuestras propias palabras claves, tarjetas o números PIN. Entonces, ¿Porque no aprovechar estas características?
 
 Los científicos se formularon está misma pregunta hace algunos años, dando
 origen a la Biometría. Ésta consiste en la identificación o verificación de la identidad de un individuo, empleando sus características biológicas, psicológicas y de conducta. En la actualidad, existen distintos tipos de dispositivos que soportan la biometría, tales como
-lectores de huella digital o lectores de retina.\cite{Car08}\\
+lectores de huella digital o lectores de retina.\cite{Car08}
 \newpage
 
-Por definición, un sistema biométrico, es un sistema automático capaz de:\\
+Por definición, un sistema biométrico, es un sistema automático capaz de:
 
 \begin{enumerate}
 
@@ -139,7 +139,7 @@ Es fundamental entender ambos mecanismos y encontrar el más adecuado para nuest
 
 Se han sugerido distintos criterios para autenticar de manera adecuada. A continuación veremos los 4 más importante:
 \begin{enumerate}
-\item \textbf{La Variabilidad} La Variabilidad tiene que ver con la variación de los valores desde un evento a otro, sobre una misma persona. Este efecto es llamado variabilidad Intra-Personal o Intra-Class. La variabilidad es inherente a todos los sistemas biométricos debido a la naturaleza no determinística de las mediciones biométricas, en la Figura \ref{la_variabilidad} vemos un ejemplo de variabilidad  \cite{Way00}.\\
+\item \textbf{La Variabilidad} La Variabilidad tiene que ver con la variación de los valores desde un evento a otro, sobre una misma persona. Este efecto es llamado variabilidad Intra-Personal o Intra-Class. La variabilidad es inherente a todos los sistemas biométricos debido a la naturaleza no determinística de las mediciones biométricas, en la Figura \ref{la_variabilidad} vemos un ejemplo de variabilidad  \cite{Way00}.
 
 \begin{figure}[H]
 \centering
@@ -149,7 +149,7 @@ Se han sugerido distintos criterios para autenticar de manera adecuada. A contin
 \end{figure}
 
 
-\item \textbf{La Capacidad Discriminatoria}  está determinada por el grado de unicidad de las características biométricas que serán utilizadas en la comparación. Aparentemente, un buen sistema biométrico posee una baja variabilidad Intra-Personal y una alta variabilidad Inter-Personal (entre distintas personas). El grado de variabilidad Intra-Personal está reflejado por el ancho de una distribución gaussiana (ver Figura \ref{la_variabilidad}) para sujetos auténticos, donde la capacidad discriminatoria puede ser estimada en la intersección de las curvas de sujetos auténticos versus sujetos no-auténticos \cite{Zha00}.\\
+\item \textbf{La Capacidad Discriminatoria}  está determinada por el grado de unicidad de las características biométricas que serán utilizadas en la comparación. Aparentemente, un buen sistema biométrico posee una baja variabilidad Intra-Personal y una alta variabilidad Inter-Personal (entre distintas personas). El grado de variabilidad Intra-Personal está reflejado por el ancho de una distribución gaussiana (ver Figura \ref{la_variabilidad}) para sujetos auténticos, donde la capacidad discriminatoria puede ser estimada en la intersección de las curvas de sujetos auténticos versus sujetos no-auténticos \cite{Zha00}.
 
 \item \textbf{La Acertividad}, para diseñar un sistema biométrico funcional, las características deben poseer bastante acertabilidad en un tiempo aceptable. Hoy en día, el criterio es determinado por la tecnología del sensor, planteando la inquietud de saber si obtuvo la característica en un tiempo aceptable y con la suficiente calidad. Por ejemplo, un examen de ADN es muy exacto, sin embargo, requiere un amplio tiempo de trabajo de verificación \cite{Zha00}.
 
@@ -285,14 +285,31 @@ Para adquirir los datos de una huella dactilar se requieren dispositivos sensore
 
 En las impresiones dactilares, los tamaños de imágenes generalmente se encuentran en el rango de $0.4$ a $1$ pulgada de altura y de $0.4$ a $0.6$ pulgadas de ancho, mientras que las resoluciones de escaneo de estos sensores se encuentran con valores entre $200$ a $1000$ dpi \cite{Mal03}.
 
-
-
 \subsubsection*{Extracción de Características}
 
-Como se mencionó anteriormente, las características pueden ser clasificadas en 3
-niveles: características globales, basadas en minucias y por el sudor de los poros.
-Aunque la primera y tercera categoría han mostrado una buena precisión en
+Como se mencionó anteriormente, las características pueden ser clasificadas en 3 niveles: características globales, basadas en minucias y por el sudor de los poros. Aunque la primera y tercera categoría han mostrado una buena precisión en reconocimiento biométrico \cite{Bal97}, la mayoría de los enfoques se basan en la detección de minucias, no siendo ésta la excepción, por lo que se expondrá brevemente sobre las más comunes técnicas de procesamiento de imágenes para encontrar y clasificar los puntos característicos. Este procesamiento entrega un mapa de la ubicación espacial, la orientación y el tipo de características con respecto a la imagen original \cite{Rod97}.
 
- 
+
+La detección de minucias requiere numerosos pasos de preprocesamiento, que comienza con la utilización de filtros de mejoramiento de imagen tales como la ecualización de histogramas, para poner énfasis en las frecuencias relevantes en la imagen. Otro filtro que ha mostrado alta eficiencia es el filtrado basado en la dirección de la frecuencia, por ejemplo los filtros \emph{Gabor}, ya que pone énfasis en los cerros en una dirección local. Además, son aplicadas algunas rutinas estándares en el procesamiento de imágenes como lo son el suavizado, y el perfilado, seguido de un proceso de binarización para obtener imágenes reales en blanco y negro.
+
+
+Basados en la imagen binaria, se aplican algoritmos de adelgazamiento y de erosión, que dan lugar a una imagen de representación en virtud de la representación de las crestas, que tendrán un ancho de $1$ pixel llamado ``esqueleto''. Un ejemplo de cómo va quedando la imagen con cada uno de estos procesos puede ser observado en la figura \ref{tratamiento}.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics{images/capitulo2/tratamiento.png}
+\caption{Tratamineto de imagen de una huella dactilar para encontrar puntos caracteristicos}
+\label{tratamiento}
+\end{figure}
+
+
+Una vez obtenida las imágenes del esqueleto, la detección de las minucias es una tarea sencilla. Esto puede lograrse mediante de $8$ reglas de vecindad: cada pixel de la imagen es analizado en el contexto de sus $8$ pixeles vecinos. Un ejemplo es el caso que $1$ pixel tenga sólo $1$ vecino: este será clasificado como minucia terminal.
+
+
+Note que detrás las técnicas basadas en minucias, existen otros tipos de características como crestas y características basadas en correlación, que requieren diferentes tipos de preprocesamiento. Particularmente, los métodos basados en correlación son sensibles a las transformaciones, por lo que requieren normalizaciones de tamaño y de orientación.
+
+
+ \subsubsection*{Comparación y Clasificación}
 %-------------------------------------------------------------------------------------------------------------------------------------------
 
