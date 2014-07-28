@@ -311,5 +311,51 @@ Note que detrás las técnicas basadas en minucias, existen otros tipos de carac
 
 
  \subsubsection*{Comparación y Clasificación}
+
+La gran ventaja del reconocimiento de huellas dactilares basadas en minucias es la invariabilidad en escala y rotación de los puntos detectados. Esto quiere decir, que si rotamos o ampliamos la huella dactilar, los valores seguirán siendo los mismos, sin necesidad de hacer cálculos adicionales, razón por la que en vez de medir sus posiciones en términos de coordenadas absolutas o posición relativa, estas pueden compararse durante el proceso de correspondencia. Un ejemplo simplificado de esto es posible verlo en la figura \ref{minuciasPuntosCarac}. Aquí $\left(x_1 , y_1 \right)$ y $\left( x_2 , y_2 \right)$ muestran la posición absoluta de los puntos $1$ y $2$ respectivamente, mientras que $\Theta 1$ y $\Theta_2$ sus orientaciones angulares. Un posible enfoque para la comparación de minucias es calcular un mapa de las posiciones de cada punto con respecto a las otras minucias en la imagen. Este modelo se puede lograr por ejemplo mediante coordenadas polares, donde las distancias y los ángulos de todos los puntos son enumerados por cada minucia. Las distancias se pueden calcular mediante la ecuación no 1, mientras que la orientación angular se puede obtener a la partir de la ecuación no 2
+
+\begin{equation}
+    	\delta_{1,2} = \sqrt{\left( y_2 - y_1 \right)^2 +\left( x_2 - x_1 \right)^2 }
+\end{equation}
+
+\begin{equation}
+    \alpha_{1,2} = \Pi - \arctan \left( \frac{y_1 - y_2}{x_2 - x_1} \right)
+\end{equation}
+
+Por lo tanto tenemos tres medidas escalares de distancia entre los puntos característicos, independiente de la orientación del sistema de coordenadas.
+
+\begin{figure}[H]
+\centering
+\includegraphics{images/capitulo2/minuciasPuntosCarac.png}
+\caption{Puntos característicos tipo bifurcación. Sus coordenadas y orientaciones angulares están dadas por $\left(x_1 , y_1 , \Theta_1 \right)$ y $\left(x_2 , y_2 , \Theta_2 \right)$ .}
+\label{minuciasPuntosCarac}
+\end{figure}
+
+Hay un gran número de nuevos métodos para la extracción de distancias locales.Independiente de su tipo, la colección de mediciones de distancias locales pueden ser acumuladas durante el proceso de correspondencia, y en consecuencia, dar lugar a una medida de similitud, ya mencionada anteriormente, denominada umbral de decisión, que determina con qué nivel de exactitud queremos verificar o identificar a un sujeto, lo que puede determinar la búsqueda en base a “que tan similar es un sujeto con el patrón almacenado”.
+
+
+Este método es sólo un ejemplo ilustrativo de cómo tratar un enfoque para características basadas minucias, pero es necesario saber que existe un gran número de enfoques muy distintos al aquí comentado, razón por la que es necesario estudiar literatura adicional para ser más experto en el tema.
+
+
+\subsection{Identificación por Radio Frecuencia RFID}
+
+Si bien en la actualidad la tecnología más extendida para la identificación de objetos es la de los códigos de barras, éstos presentan algunas desventajas, como son la escasa cantidad de datos que pueden almacenar y la
+imposibilidad de ser modificados o reprogramados. La mejora que se ideó, y que constituye el origen de la tecnología RFID, consistía en usar chips de silicio que pudieran transferir los datos que almacenaban al lector sin contacto físico.
+
+Entnces podemos definir RFID como  uns  sistema de  almacenamieto  y  recuperación  de  datos  de  manera remota, utilizando dispositivos denominados tags o etiquetas RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto, similar a un número de serie único, mediante ondas de radio.
+
+Un tags RFID es un dispositivo pequeño, similar a una  pegotina, que puede ser adherida en un producto, animal o persona. Contienen antenas para permitir recibir y responder a peticiones por radiofrecuencia desde un emisor-receptor RFID.
+
+
+Una de las ventajas del uso de radiofrecuencia, en lugar de otras tecnologias como de infrarrojos, es que no se requiere visión directa entre emisor y receptor.
+
+\subsubsection{Arquitectura y tipos de tarjetas}
+
+
+El funcionamiento de los sistemas RFID es simple. La etiqueta RFID,  genera una señal de radiofrecuencia con la información. Ésta es captada por un lector que lee la información y se la entrega, digitalmente, a la aplicación específica que utiliza RFID.
+
+
+
+
 %-------------------------------------------------------------------------------------------------------------------------------------------
 
