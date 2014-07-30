@@ -337,7 +337,34 @@ Hay un gran número de nuevos métodos para la extracción de distancias locales
 Este método es sólo un ejemplo ilustrativo de cómo tratar un enfoque para características basadas minucias, pero es necesario saber que existe un gran número de enfoques muy distintos al aquí comentado, razón por la que es necesario estudiar literatura adicional para ser más experto en el tema.
 
 
+\subsection{Identificación por Radio Frecuencia RFID}
 
+Si bien en la actualidad la tecnología más extendida para la identificación de objetos es la de los códigos de barras, éstos presentan algunas desventajas, como son la escasa cantidad de datos que pueden almacenar y la
+imposibilidad de ser modificados o reprogramados. La mejora que se ideó, y que constituye el origen de la tecnología RFID, consistía en usar chips de silicio que pudieran transferir los datos que almacenaban al lector sin contacto físico.
+
+Entnces podemos definir RFID como  uns  sistema de  almacenamieto  y  recuperación  de  datos  de  manera remota, utilizando dispositivos denominados tags o etiquetas RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto, similar a un número de serie único, mediante ondas de radio.
+
+Un tags RFID es un dispositivo pequeño, similar a una  pegotina, que puede ser adherida en un producto, animal o persona. Contienen antenas para permitir recibir y responder a peticiones por radiofrecuencia desde un emisor-receptor RFID.
+
+
+Una de las ventajas del uso de radiofrecuencia, en lugar de otras tecnologias como de infrarrojos, es que no se requiere visión directa entre emisor y receptor.
+
+\subsubsection{Arquitectura y tipos de tarjetas}
+
+
+El funcionamiento de los sistemas RFID es simple. La etiqueta RFID,  genera una señal de radiofrecuencia con la información. Ésta es captada por un lector que lee la información y se la entrega, digitalmente, a la aplicación específica que utiliza RFID.
+
+
+Por tanto, un sistema RFID consta de tres componentes Etiquetas o Tags RFID, Lector o Transceptor RFID y Aplicación como  se ve en la figura \ref{arqui_RFID}  
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics{images/capitulo2/arqui_RFID.png}
+\caption{Tratamineto de imagen de una huella dactilar para encontrar puntos caracteristicos}
+\label{arqui_RFID}
+\end{figure}
 
 
 %-------------------------------------------------------------------------------------------------------------------------------------------

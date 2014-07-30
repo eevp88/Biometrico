@@ -23,10 +23,10 @@
 \contentsline {subsubsection}{\numberline {2.2.5}Dactiloscop\IeC {\'\i }a: Reconocimiento de huellas dactilares}{12}{subsubsection.2.2.5}
 \contentsline {subsection}{\numberline {2.3}Identificaci\IeC {\'o}n por Radio Frecuencia RFID}{18}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Arquitectura y tipos de tarjetas}{18}{subsubsection.2.3.1}
-\contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{19}{section.3}
-\contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{20}{section.4}
-\contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{21}{section.5}
-\contentsline {section}{\numberline {6}RESULTADOS}{22}{section.6}
-\contentsline {section}{\numberline {7}CONCLUSIONES}{23}{section.7}
-\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{24}{section*.30}
+\contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{20}{section.3}
+\contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{21}{section.4}
+\contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{22}{section.5}
+\contentsline {section}{\numberline {6}RESULTADOS}{23}{section.6}
+\contentsline {section}{\numberline {7}CONCLUSIONES}{24}{section.7}
+\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{25}{section*.31}
 \contentsfinish 
