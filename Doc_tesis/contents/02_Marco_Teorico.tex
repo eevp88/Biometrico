@@ -15,7 +15,7 @@ Esta idea es tan antigua  como la  del Open Software, sin embargo  su  empleo no
 
 Al no existir una  definición clara de Open Software cada persona  lo  interpreta  a su manera. Dependiendo  del  enfoque  pueden  ser  establecidas dos clasificaciones  la primera  tiene en cuenta  cómo es  su naturaleza estático o  reconfigurable  y la  otra   en función  de  su filosofía.
 
-\subsubsection*{Según su Naturaleza}
+\myparagraph{Según su Naturaleza}
 
 Dada su diferente naturaleza, al hablar de Open hardware hay que especificar de qué tipo de hardware se está hablando. A continuación se describen cada uno de los diferentes hardwares según su naturaleza:
 
@@ -26,7 +26,7 @@ Es aquél descrito mediante un lenguaje de descripción de hardware. Su naturale
 Es el conjunto de elementos materiales o tangibles de los sistemas electrónicos.
 \end{itemize}
 
-\subsubsection*{Según su filosofía}
+\myparagraph{Según su filosofía}
 
 Al no existir una definición clara de Open Hardware, también existe libertad en su interpretación. Muchos de los argumentos acerca del diseño de Open Hardware provienen de quienes hablan en las comunidades de software y hardware. Una causa de esto es el simple hecho de que la palabra ``software'' refiere tanto al código fuente como a los archivos o ficheros ejecutables, mientras que las palabras ``hardware'' y ``diseño de hardware'' se refieren claramente a dos cosas distintas. Usar la palabra ``hardware'' como taquigrafía para el diseño y el objeto físico es una receta para la confusión. Los términos siguientes se han utilizado en discusiones de este asunto.
 
@@ -99,7 +99,7 @@ El proceso de enrolamiento ocurre cuando nos registramos en el sistema, donde la
 
 Aquí se observa que el proceso comienza con la toma de datos (por ejemplo, medir y realizar conversiones análogo-digital). La representación digital posterior a este proceso es denominada Enrollment Samples(Ejemplos de Enrolamiento) o simplemente enrollments. Desde el enrollment original se extraen las características biométricas, son preprocesadas, y en algunos casos almacenadas en algún soporte de datos (como una base de datos) para poder reproducirlas en otro momento.
 
-\subsubsection*{Autenticación}
+\myparagraph{Autenticación}
 
 La Autenticación (\textit{authetication}) consiste en el proceso de verificar o identificar la identidad de algún sujeto, según corresponda,  en la Figura \ref{autenticacion} se muestra en forma gráfica este proceso.
 
@@ -115,10 +115,10 @@ La Autenticación (\textit{authetication}) consiste en el proceso de verificar o
 
 La autenticación la podemos dividir en dos acciones verificación y identificación, en función de cómo se desee obtener la identidad del sujeto.
 
-\subsubsection*{Verificación}
+\myparagraph{Verificación}
 El modo de Verificación es el sistema de autentificación que determina si un set determinado de características son similares al template de dicha persona para determinar si es o no es la persona. El resultado de esta acción es siempre una decisión binaria(si o no, 0 o 1) entregando en algunos casos el puntaje de acierto (Matching Score), lo que muestra el grado de similitud entre su template y ésta persona.
 
-\subsubsection*{Identificación}
+\myparagraph{Identificación}
 
 El modo de Identificación describe el proceso de determinar la identidad de un sujeto (dadas sus características biométricas) comparándolas con un rango de sujetos. Así, la clasificación asignada será una entre todas las personas registradas en el sistema.
 
@@ -233,7 +233,7 @@ Se ha demostrado científicamente y comprobado por la experiencia, que son peren
 \end{itemize}
 
 
-\subsubsection*{Clasificación}
+\myparagraph{Clasificación}
 
 En la  actualidad, existen tres niveles de clasificación entre los cuáles es posible obtener imágenes de las huellas dactilares:
 
@@ -279,13 +279,13 @@ independientes, entre otros.  En las Figuras \ref{minucias} y \ref{minucias2} se
 
 \end{enumerate}
 
-\subsubsection*{Adquisición de los datos}
+\myparagraph{Adquisición de los datos}
 
 Para adquirir los datos de una huella dactilar se requieren dispositivos sensores específicos que puedan obtener una imagen de ella. Estos se puede dividir en sensores ópticos y sensores no ópticos. Los primeros requieren exponer la punta de los dedos a una superficie transparente que es sometida a la luz, observando su respuesta óptica; Los sensores no ópticos capturan la información sobre el perfil de altitud de la superficie de los dedos por medios distintos a la luz. Aquí se establece un voltaje eléctrico entre la piel y la superficie del sensor, que posee un conjunto de diminutos electrodos que generan voltaje cuando se expone a presión, obteniendo el perfil de alturas de las crestas y los valles. Existen otros sensores no ópticos que obtienen un perfil térmico de la piel de una distancia específica y que extraen la información de elevación desde un termograma bidimensional. En todos los casos, el resultado de la adquisición de los datos es un arreglo bidimensional de mediciones escalares que es habitualmente interpretado como imágenes en escalas de gris de distintas resoluciones y tamaños.
 
 En las impresiones dactilares, los tamaños de imágenes generalmente se encuentran en el rango de $0.4$ a $1$ pulgada de altura y de $0.4$ a $0.6$ pulgadas de ancho, mientras que las resoluciones de escaneo de estos sensores se encuentran con valores entre $200$ a $1000$ dpi \cite{Mal03}.
 
-\subsubsection*{Extracción de Características}
+\myparagraph{Extracción de Características}
 
 Como se mencionó anteriormente, las características pueden ser clasificadas en 3 niveles: características globales, basadas en minucias y por el sudor de los poros. Aunque la primera y tercera categoría han mostrado una buena precisión en reconocimiento biométrico \cite{Bal97}, la mayoría de los enfoques se basan en la detección de minucias, no siendo ésta la excepción, por lo que se expondrá brevemente sobre las más comunes técnicas de procesamiento de imágenes para encontrar y clasificar los puntos característicos. Este procesamiento entrega un mapa de la ubicación espacial, la orientación y el tipo de características con respecto a la imagen original \cite{Rod97}.
 
@@ -310,7 +310,7 @@ Una vez obtenida las imágenes del esqueleto, la detección de las minucias es u
 Note que detrás las técnicas basadas en minucias, existen otros tipos de características como crestas y características basadas en correlación, que requieren diferentes tipos de preprocesamiento. Particularmente, los métodos basados en correlación son sensibles a las transformaciones, por lo que requieren normalizaciones de tamaño y de orientación.
 
 
- \subsubsection*{Comparación y Clasificación}
+\myparagraph{Comparación y Clasificación}
 
 La gran ventaja del reconocimiento de huellas dactilares basadas en minucias es la invariabilidad en escala y rotación de los puntos detectados. Esto quiere decir, que si rotamos o ampliamos la huella dactilar, los valores seguirán siendo los mismos, sin necesidad de hacer cálculos adicionales, razón por la que en vez de medir sus posiciones en términos de coordenadas absolutas o posición relativa, estas pueden compararse durante el proceso de correspondencia. Un ejemplo simplificado de esto es posible verlo en la figura \ref{minuciasPuntosCarac}. Aquí $\left(x_1 , y_1 \right)$ y $\left( x_2 , y_2 \right)$ muestran la posición absoluta de los puntos $1$ y $2$ respectivamente, mientras que $\Theta 1$ y $\Theta_2$ sus orientaciones angulares. Un posible enfoque para la comparación de minucias es calcular un mapa de las posiciones de cada punto con respecto a las otras minucias en la imagen. Este modelo se puede lograr por ejemplo mediante coordenadas polares, donde las distancias y los ángulos de todos los puntos son enumerados por cada minucia. Las distancias se pueden calcular mediante la ecuación no 1, mientras que la orientación angular se puede obtener a la partir de la ecuación no 2
 
@@ -361,11 +361,26 @@ Por tanto, un sistema RFID consta de tres componentes Etiquetas o Tags RFID, Lec
 
 \begin{figure}[H]
 \centering
-\includegraphics{images/capitulo2/arqui_RFID.png}
+\includegraphics[scale=0.9]{images/capitulo2/arqui_RFID.png}
 \caption{Arquitectura de un sistema RFID}
 \label{arqui_RFID}
 \end{figure}
 
+
+\myparagraph{Etiqueta RFID}
+
+Esta compuesta por una antena, un radiotransmisor y un material encapsulado o  chip. El propósito de la antena es permitir al chip, que contiene la información, transmitir la información de identificación de la etiqueta. El chip posee una memoria interna con una determinada capacidad, depende del modelo y varía desde una decena hasta millares de bytes.
+
+ Existen varios tipos de memoria:
+
+\begin{itemize}
+	\item \textbf{Solo lectura}: El código de identificación que contiene es único y es personalizado durante la fabricación de la etiqueta.
+
+	\item \textbf{De lectura y escritura}: La información de identificación puede ser modificada por el lector.
+
+      	\item \textbf{Anticolisión}: Se trata de etiquetas especiales que permiten que un lector identifique varias al mismo tiempo y no se solapen, normalmente las etiquetas deben ingresar una a una en la zona de cobertura del lector.
+
+\end{itemize}
 
 %-------------------------------------------------------------------------------------------------------------------------------------------
 

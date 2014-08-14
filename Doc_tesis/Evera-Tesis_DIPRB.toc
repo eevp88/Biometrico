@@ -15,18 +15,28 @@
 \contentsline {section}{\numberline {2}MARCO TE\IeC {\'O}RICO}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Open Hardware}{4}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}\IeC {\textquestiondown }Qu\IeC {\'e} es Open Hardware?}{4}{subsubsection.2.1.1}
+\contentsline {paragraph}{\numberline {2.1.1.1}Seg\IeC {\'u}n su Naturaleza}{4}{paragraph.2.1.1.1}
+\contentsline {paragraph}{\numberline {2.1.1.2}Seg\IeC {\'u}n su filosof\IeC {\'\i }a}{5}{paragraph.2.1.1.2}
 \contentsline {subsection}{\numberline {2.2}Biometr\IeC {\'\i }a}{6}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Enrrolamiento y Autenticaci\IeC {\'o}n}{7}{subsubsection.2.2.1}
+\contentsline {paragraph}{\numberline {2.2.1.1}Autenticaci\IeC {\'o}n}{8}{paragraph.2.2.1.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Verificaci\IeC {\'o}n versus Identificaci\IeC {\'o}n}{9}{subsubsection.2.2.2}
+\contentsline {paragraph}{\numberline {2.2.2.1}Verificaci\IeC {\'o}n}{9}{paragraph.2.2.2.1}
+\contentsline {paragraph}{\numberline {2.2.2.2}Identificaci\IeC {\'o}n}{9}{paragraph.2.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Criterios de selecci\IeC {\'o}n de caracter\IeC {\'\i }sticas biom\IeC {\'e}tricas}{9}{subsubsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.4}Medidas de Rendimiento y Exactitud}{11}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}Dactiloscop\IeC {\'\i }a: Reconocimiento de huellas dactilares}{12}{subsubsection.2.2.5}
+\contentsline {paragraph}{\numberline {2.2.5.1}Clasificaci\IeC {\'o}n}{13}{paragraph.2.2.5.1}
+\contentsline {paragraph}{\numberline {2.2.5.2}Adquisici\IeC {\'o}n de los datos}{14}{paragraph.2.2.5.2}
+\contentsline {paragraph}{\numberline {2.2.5.3}Extracci\IeC {\'o}n de Caracter\IeC {\'\i }sticas}{15}{paragraph.2.2.5.3}
+\contentsline {paragraph}{\numberline {2.2.5.4}Comparaci\IeC {\'o}n y Clasificaci\IeC {\'o}n}{16}{paragraph.2.2.5.4}
 \contentsline {subsection}{\numberline {2.3}Identificaci\IeC {\'o}n por Radio Frecuencia RFID}{18}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Arquitectura y tipos de tarjetas}{18}{subsubsection.2.3.1}
+\contentsline {paragraph}{\numberline {2.3.1.1}Etiqueta RFID}{19}{paragraph.2.3.1.1}
 \contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{20}{section.3}
 \contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{21}{section.4}
 \contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{22}{section.5}
 \contentsline {section}{\numberline {6}RESULTADOS}{23}{section.6}
 \contentsline {section}{\numberline {7}CONCLUSIONES}{24}{section.7}
-\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{25}{section*.31}
+\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{25}{section*.22}
 \contentsfinish 

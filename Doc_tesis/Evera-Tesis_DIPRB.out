@@ -12,17 +12,27 @@
 \BOOKMARK [1][-]{section.2}{MARCO TE\323RICO}{}% 12
 \BOOKMARK [2][-]{subsection.2.1}{Open Hardware}{section.2}% 13
 \BOOKMARK [3][-]{subsubsection.2.1.1}{\277Qu\351 es Open Hardware?}{subsection.2.1}% 14
-\BOOKMARK [2][-]{subsection.2.2}{Biometr\355a}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Enrrolamiento y Autenticaci\363n}{subsection.2.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Verificaci\363n versus Identificaci\363n}{subsection.2.2}% 17
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Criterios de selecci\363n de caracter\355sticas biom\351tricas}{subsection.2.2}% 18
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Medidas de Rendimiento y Exactitud}{subsection.2.2}% 19
-\BOOKMARK [3][-]{subsubsection.2.2.5}{Dactiloscop\355a: Reconocimiento de huellas dactilares}{subsection.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.3}{Identificaci\363n por Radio Frecuencia RFID}{section.2}% 21
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Arquitectura y tipos de tarjetas}{subsection.2.3}% 22
-\BOOKMARK [1][-]{section.3}{SOLUCI\323N PROPUESTA}{}% 23
-\BOOKMARK [1][-]{section.4}{AN\301LISIS Y DISE\321O}{}% 24
-\BOOKMARK [1][-]{section.5}{IMPLEMENTACI\323N}{}% 25
-\BOOKMARK [1][-]{section.6}{RESULTADOS}{}% 26
-\BOOKMARK [1][-]{section.7}{CONCLUSIONES}{}% 27
-\BOOKMARK [1][-]{section*.31}{BIBLIOGRAF\315A}{}% 28
+\BOOKMARK [4][-]{paragraph.2.1.1.1}{Seg\372n su Naturaleza}{subsubsection.2.1.1}% 15
+\BOOKMARK [4][-]{paragraph.2.1.1.2}{Seg\372n su filosof\355a}{subsubsection.2.1.1}% 16
+\BOOKMARK [2][-]{subsection.2.2}{Biometr\355a}{section.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Enrrolamiento y Autenticaci\363n}{subsection.2.2}% 18
+\BOOKMARK [4][-]{paragraph.2.2.1.1}{Autenticaci\363n}{subsubsection.2.2.1}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Verificaci\363n versus Identificaci\363n}{subsection.2.2}% 20
+\BOOKMARK [4][-]{paragraph.2.2.2.1}{Verificaci\363n}{subsubsection.2.2.2}% 21
+\BOOKMARK [4][-]{paragraph.2.2.2.2}{Identificaci\363n}{subsubsection.2.2.2}% 22
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Criterios de selecci\363n de caracter\355sticas biom\351tricas}{subsection.2.2}% 23
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Medidas de Rendimiento y Exactitud}{subsection.2.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Dactiloscop\355a: Reconocimiento de huellas dactilares}{subsection.2.2}% 25
+\BOOKMARK [4][-]{paragraph.2.2.5.1}{Clasificaci\363n}{subsubsection.2.2.5}% 26
+\BOOKMARK [4][-]{paragraph.2.2.5.2}{Adquisici\363n de los datos}{subsubsection.2.2.5}% 27
+\BOOKMARK [4][-]{paragraph.2.2.5.3}{Extracci\363n de Caracter\355sticas}{subsubsection.2.2.5}% 28
+\BOOKMARK [4][-]{paragraph.2.2.5.4}{Comparaci\363n y Clasificaci\363n}{subsubsection.2.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.3}{Identificaci\363n por Radio Frecuencia RFID}{section.2}% 30
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Arquitectura y tipos de tarjetas}{subsection.2.3}% 31
+\BOOKMARK [4][-]{paragraph.2.3.1.1}{Etiqueta RFID}{subsubsection.2.3.1}% 32
+\BOOKMARK [1][-]{section.3}{SOLUCI\323N PROPUESTA}{}% 33
+\BOOKMARK [1][-]{section.4}{AN\301LISIS Y DISE\321O}{}% 34
+\BOOKMARK [1][-]{section.5}{IMPLEMENTACI\323N}{}% 35
+\BOOKMARK [1][-]{section.6}{RESULTADOS}{}% 36
+\BOOKMARK [1][-]{section.7}{CONCLUSIONES}{}% 37
+\BOOKMARK [1][-]{section*.22}{BIBLIOGRAF\315A}{}% 38

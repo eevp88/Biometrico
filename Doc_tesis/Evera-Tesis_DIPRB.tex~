@@ -1,15 +1,4 @@
 %******************************************************************
-% Proyecto de Título                                              *
-% Ingeniería Civil en Informática - Universidad Austral de Chile  *
-% Autor: Paulo Antonio Gallardo Casanova                          *
-%          gallardo.casanova@gmail.com                            * 
-% Tesis: Uso de 6LoWPAN para el Monitoreo de la Salud             *
-%            Estructural de un Puente                             *
-%     Noviembre de 2013 - Valdivia                                *   
-% Patrocinante: Christian Lazo, clazo@inf.uach.cl                 *                                         
-%******************************************************************
-
-%******************************************************************
 % Plantilla de Proyecto de Título                                 *
 % Ingeniería Civil en Informática - Universidad Austral de Chile  *
 % Autor: Paulo Antonio Gallardo Casanova                          *
@@ -68,6 +57,12 @@
 \renewcommand{\baselinestretch}{1.5}
 \pretolerance=10000
 \tolerance=10000
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+
 
 \sectionfont{\fontsize{14}{14}\selectfont}
 \subsectionfont{\fontsize{14}{14}\selectfont}
@@ -160,15 +155,15 @@
 \setlength{\cftsecnumwidth}{0.8em}  % espacio en ToC
 \setlength{\cftsubsecnumwidth}{1.8em}
 \setlength{\cftsubsubsecnumwidth}{2.5em}
+\setlength{\cftparanumwidth}{3em}
 \setlength{\cftsubsecindent}{2.0em}
 \setlength{\cftsubsubsecindent}{3.0em}
+\setlength{\cftparaindent}{4.0em}
 \setlength{\cftfignumwidth}{1.5em}  % espacio entre números con LoF
 \setlength{\cfttabnumwidth}{1.5em}  % espacio entre números con LoT
 
 
 \setlength{\parindent}{0pt} % sangrías
-
-\setcounter{secnumdepth}{4} %subsubsubsection
 
 %----------------------------------------------------------
 % NOTAS
