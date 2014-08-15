@@ -30,9 +30,13 @@
 \BOOKMARK [2][-]{subsection.2.3}{Identificaci\363n por Radio Frecuencia RFID}{section.2}% 30
 \BOOKMARK [3][-]{subsubsection.2.3.1}{Arquitectura y tipos de tarjetas}{subsection.2.3}% 31
 \BOOKMARK [4][-]{paragraph.2.3.1.1}{Etiqueta RFID}{subsubsection.2.3.1}% 32
-\BOOKMARK [1][-]{section.3}{SOLUCI\323N PROPUESTA}{}% 33
-\BOOKMARK [1][-]{section.4}{AN\301LISIS Y DISE\321O}{}% 34
-\BOOKMARK [1][-]{section.5}{IMPLEMENTACI\323N}{}% 35
-\BOOKMARK [1][-]{section.6}{RESULTADOS}{}% 36
-\BOOKMARK [1][-]{section.7}{CONCLUSIONES}{}% 37
-\BOOKMARK [1][-]{section*.22}{BIBLIOGRAF\315A}{}% 38
+\BOOKMARK [4][-]{paragraph.2.3.1.2}{Lector de RFID}{subsubsection.2.3.1}% 33
+\BOOKMARK [4][-]{paragraph.2.3.1.3}{Subsistema de Procesamiento de datos}{subsubsection.2.3.1}% 34
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Tipos de Etiquetas}{subsection.2.3}% 35
+\BOOKMARK [4][-]{paragraph.2.3.2.1}{Tags pasivos}{subsubsection.2.3.2}% 36
+\BOOKMARK [1][-]{section.3}{SOLUCI\323N PROPUESTA}{}% 37
+\BOOKMARK [1][-]{section.4}{AN\301LISIS Y DISE\321O}{}% 38
+\BOOKMARK [1][-]{section.5}{IMPLEMENTACI\323N}{}% 39
+\BOOKMARK [1][-]{section.6}{RESULTADOS}{}% 40
+\BOOKMARK [1][-]{section.7}{CONCLUSIONES}{}% 41
+\BOOKMARK [1][-]{section*.22}{BIBLIOGRAF\315A}{}% 42

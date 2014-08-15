@@ -382,5 +382,43 @@ Esta compuesta por una antena, un radiotransmisor y un material encapsulado o  c
 
 \end{itemize}
 
+\myparagraph{Lector de RFID}
+
+Compuesto por una antena, un transceptor y un decodificador. El lector envía periódicamente señales para ver si hay alguna etiqueta en sus inmediaciones. Cuando capta la señal de una etiqueta, que contiene la información de identificación de ésta, extrae la información y se la pasa al subsistema de procesamiento de datos.
+
+\myparagraph{Subsistema de Procesamiento de datos}: 
+Proporciona los medios de procesamiento y almacenamiento de los datos. 
+
+
+Para comunicarse, los tags responden a peticiones o preguntas generando señales que a su vez no deben interferir con las transmisiones del lector, ya que las señales que llegan de los tags pueden ser muy débiles y han de poder distinguirse.
+
+\subsubsection{Tipos de Etiquetas}
+
+Las etiquetas RFID pueden ser activas, semipasivas o semiactivas y pasivas. Los tags pasivos no requieren ninguna fuente de alimentación interna, sólo se activan cuando un lector se encuentra cerca para suministrarles la energía necesaria. Los otros dos tipos necesitan alimentación, típicamente una batería pequeña. Como las etiquetas pasivas son mucho más baratas de fabricar y no necesitan batería, la gran mayoría de las etiquetas RFID existentes en el mercado son del tipo pasivo.
+
+
+A pesar de las ventajas en cuanto al costo de las etiquetas pasivas con respecto a las etiquetas activas son significativas, otros factores como la exactitud, funcionamiento en ciertos ambientes como cerca del agua o metal, que disminuye la exactitud, y la confiabilidad hacen que el uso de etiquetas activas empiece a aumentar considerablemente. Además, una de las principales desventajas de los dispositivos activos es el tamaño.
+
+
+\myparagraph{Tags pasivos}
+
+Los tags pasivos no poseen ningún tipo de alimentación eléctrica externa. La señal que les llega de los lectores induce una corriente eléctrica mínima que basta para operar el circuito integrado del tag, que permita generar y transmitir una respuesta. Las tarjetas contactless son de este tipo, ya que simplemente se les induce la corriente eléctrica, y con ello, se activa su antena interna.
+
+
+La mayoría de tags pasivos utiliza \emph{backscattering} o reflexión de las ondas, sobre la onda portadora recibida. Esto es, la antena ha de estar diseñada para obtener la energía necesaria para funcionar al mismo tiempo que para transmitir la respuesta por backscatter. Esta respuesta puede ser cualquier tipo de información, no sólo un código identificador.
+
+
+%-- http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4118038&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4118038 %
+
+Un tag puede incluir memoria no volátil, posiblemente con capacidad de escritura, por ejemplo, una memoria EEPROM - \emph{electrically erasable programmable read-only memory}: ROM programable y borrable eléctricamente. 
+
+Los tags pasivos suelen tener distancias de uso práctico comprendidas entre los $10$cm (norma ISO $14443$) y llegando hasta unos pocos metros (normas EPC e ISO $18000-6$) según la frecuencia de funcionamiento, el diseño y tamaño de la antena. Por su sencillez conceptual, se pueden fabricar por medio de un proceso de impresión común. Al carecer de autonomía energética, este dispositivo puede resultar muy pequeño, pueden incluirse en un sticker o insertarse bajo la piel.
+
+
+En la práctica, las etiquetas pasivas tienen distancias de lectura que varían entre los $10$ milímetros hasta cerca de $6$ metros dependiendo del tamaño de la antena de la etiqueta, y de la potencia y frecuencia en la que opera el lector.
+
+
+
+
 %-------------------------------------------------------------------------------------------------------------------------------------------
 
