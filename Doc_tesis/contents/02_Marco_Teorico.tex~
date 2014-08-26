@@ -382,7 +382,7 @@ Esta compuesta por una antena, un radiotransmisor y un material encapsulado o  c
 
 \end{itemize}
 
-\myparagraph{Lector de RFID}: 
+\myparagraph{Lector de RFID}
 
 Compuesto por una antena, un transceptor y un decodificador. El lector envía periódicamente señales para ver si hay alguna etiqueta en sus inmediaciones. Cuando capta la señal de una etiqueta, que contiene la información de identificación de ésta, extrae la información y se la pasa al subsistema de procesamiento de datos.
 

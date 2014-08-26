@@ -37,10 +37,11 @@
 \contentsline {paragraph}{\numberline {2.3.1.3}Subsistema de Procesamiento de datos}{19}{paragraph.2.3.1.3}
 \contentsline {subsubsection}{\numberline {2.3.2}Tipos de Etiquetas}{19}{subsubsection.2.3.2}
 \contentsline {paragraph}{\numberline {2.3.2.1}Tags pasivos}{20}{paragraph.2.3.2.1}
-\contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{21}{section.3}
-\contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{22}{section.4}
-\contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{23}{section.5}
-\contentsline {section}{\numberline {6}RESULTADOS}{24}{section.6}
-\contentsline {section}{\numberline {7}CONCLUSIONES}{25}{section.7}
-\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{26}{section*.22}
+\contentsline {paragraph}{\numberline {2.3.2.2}Tags Activos}{21}{paragraph.2.3.2.2}
+\contentsline {section}{\numberline {3}SOLUCI\IeC {\'O}N PROPUESTA}{22}{section.3}
+\contentsline {section}{\numberline {4}AN\IeC {\'A}LISIS Y DISE\IeC {\~N}O}{23}{section.4}
+\contentsline {section}{\numberline {5}IMPLEMENTACI\IeC {\'O}N}{24}{section.5}
+\contentsline {section}{\numberline {6}RESULTADOS}{25}{section.6}
+\contentsline {section}{\numberline {7}CONCLUSIONES}{26}{section.7}
+\contentsline {section}{BIBLIOGRAF\IeC {\'I}A}{27}{section*.22}
 \contentsfinish 
