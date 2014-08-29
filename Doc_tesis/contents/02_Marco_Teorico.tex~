@@ -418,6 +418,43 @@ Los tags pasivos suelen tener distancias de uso práctico comprendidas entre los
 En la práctica, las etiquetas pasivas tienen distancias de lectura que varían entre los $10$ milímetros hasta cerca de $6$ metros dependiendo del tamaño de la antena de la etiqueta, y de la potencia y frecuencia en la que opera el lector.
 
 
+\myparagraph{Tags Activos}
+
+Estos \emph{tags} poseen su propia fuente de energía, que utilizan para dar corriente a sus circuitos integrados y propagar su señal al
+lector. Estos \emph{tags} son mucho más fiables, sobre todos en distancias amplias, que los pasivos debido a su capacidad de establecer sesiones con el lector.
+
+Gracias a su fuente de energía son capaces de transmitir señales más potentes que las de los \emph{tags} pasivos, lo que les lleva a ser más eficientes en entornos dificultosos para la radiofrecuencia como el agua, incluyendo humanos y ganado, formados en su mayoría
+por agua; metal, contenedores y vehículos. También son efectivos a distancias mayores pudiendo generar respuestas claras a partir de recepciones débiles, lo contrario que los \emph{tags} pasivos. Su principal desventaja es que suelen ser más grandes y más caros, y su vida útil es en general mucho más corta.
+
+Muchos \emph{tags} activos tienen rangos efectivos de cientos de metros y una vida útil de sus baterías de hasta $10$ años. Algunos de ellos integran sensores de registro de temperatura y otras variables que pueden usarse para monitorizar entornos de alimentación o productos farmacéuticos. Otros sensores incluyen monitorización de humedad, vibración, luz, radiación, temperatura y componentes atmosféricos. Los \emph{tags}, además de su mucho mayor alcance, tienen capacidades de almacenamiento mayores y la habilidad de guardar información adicional enviada por el transceptor.
+
+Actualmente, los \emph{tags} activos más pequeñas tienen un tamaño aproximado de una moneda. Muchos \emph{tags} activos tienen rangos prácticos de diez metros, y una duración de batería de hasta varios años.
+
+
+\myparagraph{Tags Semipasivos}
+
+Los \emph{tags} semipasivos se parecen a los activos en que poseen una fuente de alimentación propia, aunque los semipasivos la utilizan principalmente para alimentar el microchip y no para transmitir una señal, la energía contenida en la radiofrecuencia se
+refleja al lector como en un tag pasivo, además poseen mejor tiempo de respuesta.
+
+Un uso alternativo para la batería es almacenar información propagada desde el lector para emitir una respuesta en el futuro, típicamente usando \emph{backscatter}. La batería puede permitir al circuito integrado del \emph{tag} estar constantemente alimentado y eliminar la necesidad de diseñar una antena para recoger potencia de una señal entrante. Por ello, las antenas pueden ser optimizadas para utilizar métodos de \emph{backscattering}.
+
+Este tipo de \emph{tags} tienen las  mejores cosas de los dos  anteriores, por un lado fiabilidad comparable a la de los \emph{tags} activos a la vez que pueden mantener el rango operativo de un \emph{tag} pasivo. También suelen durar más que los \emph{tags} activos.
+
+\subsubsection{Usos en la Actualidad}
+
+Dependiendo de las frecuencias utilizadas en los sistemas RFID, el costo, el alcance y las aplicaciones son diferentes. Los que emplean frecuencias bajas tienen costos bajos, pero también baja distancia de uso. Los que emplean frecuencias más altas proporcionan distancias mayores de lectura y lectura más rápidas. Así, las de baja frecuencia se utilizan para la identificación de animales, seguimiento de productos en general, o como llave de automóviles con sistema antirrobo. En ocasiones se insertan pequeños chips en mascotas para poder ser devueltas a su dueño en caso de pérdida.
+
+
+Las etiquetas RFID de baja frecuencia, $125 - 134 [kHz] $ y $140 - 148.5 [kHz]$ y de alta frecuencia, $13.56 MHz$, se pueden utilizar de forma global sin necesidad de licencia, no así la frecuencia ultralta UHF, $868 - 928 [MHz]$, ya que no existe un único estándar global. En los Estados Unidos se utilizan la frecuencia de $125 [kHz]$, el estándar original, y $134,5 [kHz]$, el estándar internacional. Las etiquetas RFID de alta frecuencia se utilizan en bibliotecas y seguimiento de libros, control de acceso en edificios, seguimiento de equipaje en aerolíneas, seguimiento de artículos de ropa y últimamente, en pacientes de centros hospitalarios para hacer un seguimiento de su historial clínico.
+
+
+Los \emph{tag} RFID son empleados para la recaudación con peaje electrónico. Como por ejemplo el telepeaje TAG en las autopistas urbanas en Santiago de Chile. Las tarjetas son leídas por un pórtico mientras los vehículos transitan; la información se
+utiliza para cobrar el peaje en una cuenta periódica o descontarla de una cuenta prepago, así, el sistema ayuda a disminuir el tráfico causado por las casetas de peaje. Aparte de éstas aplicaciones, también se utilizan como monederos electrónicos, utilizando las tarjetas contactless, por ejemplo, la Tarjeta bip! en Santiago de Chile para el transporte público, la tarjeta SubteCard para el subterráneo de Buenos Aires, la tarjeta Cívica en Medellín, entre otras.
+
+
+
+
+
 
 
 %-------------------------------------------------------------------------------------------------------------------------------------------
